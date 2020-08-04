@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('Gilroy-Regular.eot');
+  src: url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+  url('Gilroy-Regular.woff') format('woff'),
+  url('Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('Gilroy-Medium.eot');
+  src: url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+  url('Gilroy-Medium.woff') format('woff'),
+  url('Gilroy-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('Gilroy-SemiBold.eot');
+  src: url('Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('Gilroy-SemiBold.woff') format('woff'),
+  url('Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body  {
+  background-color:  gray;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px;
+  color: #A4A8B5;
+
+
+}
+.sidebar-logo {
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 0px 0px;
+
+
+
+}
+.sidebar-logo__pic {
+  width: 56px;
+  height: 23.41px;
+  margin-left: 17px;
+  margin-top: 16px;
+
+}
+.sidebar-item {
+  border-bottom: 1px solid #F5F6FA;
+  margin-left: 0px;
+  margin-right:0px;
+  padding-top: 24px;
+  position: relative;
+
+}
+.sidebar-item__pic {
+
+  text-align: center;
+
+}
+.sidebar-item__text {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.main {
+  margin-top: 109px;
+}
+.sidebar-item:hover {
+  background: #F5F6FA;
+  color: #232C3D;
+
+}
+.sidebar-item:active {
+  background: #F5F6FA;
+  color: #218A38;
+}
+.sidebar-item-line {
+  display: none;
+  position: absolute;
+
+  top: 30%;
+  bottom: 30%;
+  background: #218A38;
+  border-radius: 0px 4px 4px 0px;
+  width: 2px;
+  height: 36px;
+
+}
+.sidebar-item:active .sidebar-item-line {
+  display: flex;
+}
+
