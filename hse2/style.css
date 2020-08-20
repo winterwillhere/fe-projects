@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'HSE-Sans';
+  src: url('HSESans-Regular.eot');
+  src: url('HSESans-Regular.woff') format('woff'), url('HSESans-Regular.ttf') format('truetype'), url('HSESans-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url('ProximaNova-Regular.eot');
+  src: url('ProximaNova-Regular.woff') format('woff'), url('ProximaNova-Regular.ttf') format('truetype'), url('ProximaNova-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.calendar-year{
+  height: 256px;
+  width: 306px;
+  flex-flow: wrap;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 12px rgba(106, 122, 152, 0.12);
+  border-radius: 8px;
+  display: flex;
+}
+.calendar-year__right-pic {
+  margin-top: 26px;
+  margin-left: 28px;
+}
+.calendar-year__left-pic {
+  margin-top: 26px;
+  margin-right: 28px;
+}
+.calendar-year__month {
+  font-family: Proxima-Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  color: #6B7A99;
+  margin-top: 16px;
+  margin-left: 44px;
+  padding: 6px 16px;
+}
+.calendar-year__year {
+  font-family: Proxima-Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6B7A99;
+  margin-right: 44px;
+  margin-top: 16px;
+  padding: 6px 16px;
+  text-align: center;
+}
+.calendar-year__main{
+  display: flex;
+  padding: 16px 0px;
+  flex-wrap: wrap;
+  position: static;
+  width: 274px;
+  height: 184px;
+  margin-left: 16px;
+  margin-right: 16px;
+  top: 56px;
+  justify-content: space-between;
+}
+.calendar-year__header {
+  display: flex;
+  justify-content: space-between;
+}
+.calendar-year__main div {
+  font-family: Proxima-Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6B7A99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:32px;
+  width: 88px;
+}
+.calendar-year__main div:hover {
+  background: #F0F5FF;
+  border-radius: 8px;
+}
+.calendar-year__main div:active {
+  background: #0050CF;
+  border-radius: 8px;
+  color: #EAEAFF;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
