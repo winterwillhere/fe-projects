@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'HSE-Sans';
+  src: url('HSESans-Regular.eot');
+  src: url('HSESans-Regular.woff') format('woff'), url('HSESans-Regular.ttf') format('truetype'), url('HSESans-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima-Nova';
+  src: url('ProximaNova-Regular.eot');
+  src: url('ProximaNova-Regular.woff') format('woff'), url('ProximaNova-Regular.ttf') format('truetype'), url('ProximaNova-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  width: 822px;
+  height: 695px;
+
+}
+table {
+  border: 1px solid #E1E4EB;
+  border-collapse: collapse;
+}
+.marks-table__header {
+  background: #F0F5FF;
+  height: 124px;
+  font-family: Proxima-Nova;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6B7A99;
+  border: 1px solid #E1E4EB;
+
+}
+tr {
+  height: 56px;
+}
+td {
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #E1E4EB;
+}
+th {
+ text-align: center;
+  vertical-align: middle;
+
+}
+.marks-table__header-block1 {
+  width: 169px;
+  height: 124px;
+  border-right: 1px solid #E1E4EB;
+}
+.marks-table__header-block2 {
+  width: 238px;
+
+  border-right: 1px solid #E1E4EB;
+}
+.marks-table__header-block3 {
+  width: 240px;
+  border-right: 1px solid #E1E4EB;
+}
+.marks-table__header-block4 {
+  width: 150px;
+}
+.marks-table__header-block5 {
+  width: 172px;
+}
+.marks-table__row-ten {
+  background-color: white;
+  border: 1px:
+  width: 89px;
+}
+.marks-table__ten {
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 74.5px;
+
+}
+
+.marks-table__letter {
+  text-align: left;
+  padding-left: 32px;
+  vertical-align: middle;
+}
+.marks-table__eng {
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 28px;
+}
+.marks-table__englet {
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 32px
+}
+.marks-table__rus {
+  text-align: left;
+  padding-left: 32px;
+  vertical-align: middle;
+}
+.marks-table__row-nine, .marks-table__row-seven, .marks-table__row-five, .marks-table__row-three, .marks-table__row-one  {
+
+  background: #F5F6FA;
+
+
+}
+
